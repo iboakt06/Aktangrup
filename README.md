@@ -6,7 +6,7 @@ Proje, kurgusal bir uluslararası risk danışmanlık firması olan **"Aktan Gru
 
 ---
  # Canlı Demo Linki 
-    ="https://iboakt06.github.io/Aktangrup/ adresinde yayında."
+    https://iboakt06.github.io/Aktangrup/ adresinde yayında.
 
 
 ---
@@ -51,4 +51,5 @@ Uygulama, **National Weather Service (NWS)** API'sini kullanmaktadır.
 8.  **offline.html:** İnternet tamamen kesildiğinde gösterilen özel hata sayfası.
 
 ---
+
 
