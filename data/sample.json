@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "yedek-veri-1",
+      "properties": {
+        "event": "Şiddetli Sel Uyarısı",
+        "severity": "Severe",
+        "headline": "New York merkez bölgesi için acil sel uyarısı. Nehir seviyeleri yükseliyor.",
+        "description": "LÜTFEN DİKKAT: Bu bir tatbikat verisidir. Nehir taşkınları beklenmektedir. Alçak bölgeleri terk edin.",
+        "areaDesc": "New York, Manhattan",
+        "sent": "2026-01-14T10:00:00-05:00",
+        "instruction": "Derhal yüksek bölgelere çıkın."
+      }
+    },
+    {
+      "id": "yedek-veri-2",
+      "properties": {
+        "event": "Fırtına Uyarısı",
+        "severity": "Moderate",
+        "headline": "Teksas kıyılarında rüzgar hızı 80mph üzerine çıkabilir.",
+        "description": "Bu bir örnek veridir. Çatı uçmalarına ve ağaç devrilmelerine karşı dikkatli olun.",
+        "areaDesc": "Texas, Houston",
+        "sent": "2026-01-14T11:30:00-05:00",
+        "instruction": "Pencerelerden uzak durun."
+      }
+    },
+    {
+      "id": "yedek-veri-3",
+      "properties": {
+        "event": "Orman Yangını Riski",
+        "severity": "Minor",
+        "headline": "California kuzey ormanlarında düşük nem oranı.",
+        "description": "Bu bir örnek veridir. Kamp ateşi yakmak kesinlikle yasaktır.",
+        "areaDesc": "California, Sacramento",
+        "sent": "2026-01-14T09:15:00-05:00",
+        "instruction": "Ateşle yaklaşmayın."
+      }
+    }
+  ]
+}

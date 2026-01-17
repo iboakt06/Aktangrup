@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bağlantı Yok | Aktan Grup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="d-flex align-items-center justify-content-center min-vh-100 text-center">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="mb-4">
+                    <i class="fa-solid fa-satellite-dish fa-4x text-muted" style="opacity: 0.3;"></i>
+                    <i class="fa-solid fa-slash fa-2x gold-text position-absolute" style="margin-left: -20px; margin-top: 20px;"></i>
+                </div>
+
+                <h1 class="display-4 text-white mb-3">BAĞLANTI KOPTU</h1>
+                <p class="text-gray lead mb-5">
+                    Aktan Grup uydu sunucularına şu an erişilemiyor. 
+                    İnternet bağlantınız geri geldiğinde sistem otomatik olarak yeniden bağlanacaktır.
+                </p>
+
+                <div class="d-grid gap-3 col-8 mx-auto">
+                    <button onclick="window.location.reload()" class="btn btn-gold py-3">
+                        <i class="fa-solid fa-rotate-right me-2"></i>TEKRAR DENE
+                    </button>
+                    <a href="index.html" class="btn btn-outline-gold py-3">
+                        ANASAYFAYA DÖN (ÖNBELLEK)
+                    </a>
+                </div>
+                
+                <p class="mt-5 text-muted small">Hata Kodu: PWA_OFFLINE_MODE</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

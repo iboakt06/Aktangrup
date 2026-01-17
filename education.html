@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afet Rehberi | Aktan Grup</title>
+    <link rel="manifest" href="manifest.json">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+        .accordion-button {
+            background-color: #111;
+            color: #fff;
+            border: 1px solid #333;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: var(--gold);
+            color: #000;
+            font-weight: bold;
+        }
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: var(--gold);
+        }
+        .accordion-body {
+            background-color: #050505;
+            color: #b0b0b0;
+            border: 1px solid #333;
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="loader"><div class="loader-content"><h2 class="loader-text">AKTAN GRUP</h2><div class="loader-bar"></div></div></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fa-solid fa-shield-halved me-2 gold-text"></i>AKTAN<span class="fw-light">GRUP</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Canlı Risk Paneli</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Bilgi Bankası</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="history.html">ABD Afet Tarihçesi</a></li>
+                            <li><a class="dropdown-item" href="education.html">Afet Rehberi & Eğitim</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Kurumsal</a></li>
+                    <li class="nav-item ms-lg-3"><a href="contact.html" class="btn btn-gold">İLETİŞİME GEÇ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5 bg-darker border-bottom border-secondary">
+        <div class="container text-center py-5">
+            <h5 class="gold-text tracking-widest">EĞİTİM & FARKINDALIK</h5>
+            <h1 class="display-4 text-white">AFET REHBERİ</h1>
+            <p class="text-gray mx-auto" style="max-width: 700px;">
+                Bilgi hayat kurtarır. Farklı afet türleri hakkında bilmeniz gereken temel hayatta kalma stratejileri.
+            </p>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container" style="max-width: 900px;">
+            <div class="accordion" id="disasterAccordion">
+                
+                <div class="accordion-item mb-3 border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            <i class="fa-solid fa-water me-3 gold-text"></i> SEL VE SU BASKINI (Flood)
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#disasterAccordion">
+                        <div class="accordion-body p-4">
+                            <p>Sel, en sık görülen doğal afetlerden biridir. Ani su baskınları (Flash Flood) dakikalar içinde gerçekleşebilir.</p>
+                            <h6 class="text-white mt-3">Ne Yapmalı?</h6>
+                            <ul class="small">
+                                <li><strong>"Arkanı Dön, Boğulma":</strong> Asla sel sularının içine yürümeyin veya araba sürmeyin. 15 cm su sizi devirebilir.</li>
+                                <li>En yüksek noktaya çıkın.</li>
+                                <li>Elektrik kaynaklarından uzak durun.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            <i class="fa-solid fa-house-crack me-3 gold-text"></i> DEPREM (Earthquake)
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#disasterAccordion">
+                        <div class="accordion-body p-4">
+                            <p>ABD Batı Yakası (California) yüksek risk altındadır. Deprem önceden tahmin edilemez.</p>
+                            <h6 class="text-white mt-3">Ne Yapmalı?</h6>
+                            <ul class="small">
+                                <li><strong>ÇÖK - KAPAN - TUTUN:</strong> Sağlam bir masanın altına girin.</li>
+                                <li>Pencerelerden ve cam eşyalardan uzak durun.</li>
+                                <li>Dışarıdaysanız binalardan ve elektrik direklerinden uzaklaşın.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            <i class="fa-solid fa-wind me-3 gold-text"></i> KASIRGA (Hurricane)
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#disasterAccordion">
+                        <div class="accordion-body p-4">
+                            <p>Atlantik kıyılarında sık görülür. Şiddetli rüzgar ve yağış getirir.</p>
+                            <h6 class="text-white mt-3">Ne Yapmalı?</h6>
+                            <ul class="small">
+                                <li>Pencereleri tahtalarla kapatın (Board up).</li>
+                                <li>Tahliye emri verilirse derhal bölgeyi terk edin.</li>
+                                <li>72 saatlik acil durum çantası hazırlayın (Su, fener, pil).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                            <i class="fa-solid fa-fire me-3 gold-text"></i> ORMAN YANGINI (Wildfire)
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#disasterAccordion">
+                        <div class="accordion-body p-4">
+                            <p>Kuru ve sıcak havalarda hızla yayılır. Rüzgar yönü hayati önem taşır.</p>
+                            <h6 class="text-white mt-3">Ne Yapmalı?</h6>
+                            <ul class="small">
+                                <li>N95 maske takarak duman solumaktan kaçının.</li>
+                                <li>Evin etrafındaki yanıcı maddeleri temizleyin.</li>
+                                <li>Araç yakıt deposunu her zaman dolu tutun.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   <footer class="footer bg-black pt-5 pb-4 border-top border-secondary mt-5">
+    <div class="container">
+        <div class="row g-4">
+            
+            <div class="col-lg-4 col-md-6">
+                <a class="navbar-brand d-block mb-4" href="index.html">
+                    <i class="fa-solid fa-shield-halved me-2 gold-text"></i>
+                    <span class="text-white fw-bold h4">AKTAN</span><span class="text-white fw-light h4">GRUP</span>
+                </a>
+                <p class="text-gray small mb-4" style="max-width: 300px;">
+                    Güvenliğiniz şansa bırakılmayacak kadar değerlidir. Profesyonel risk yönetimi ile geleceğinizi koruma altına alın.
+                </p>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-white hover-blue"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a href="#" class="text-white hover-blue"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                    <a href="https://www.instagram.com/iboakt06" target="_blank" class="text-white hover-blue"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6">
+                <h5 class="gold-text mb-4">KURUMSAL</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="about.html" class="footer-link">Hakkımızda <i class="fa-solid fa-chevron-right fa-xs"></i></a></li>
+                    <li><a href="#" class="footer-link">Referanslar <i class="fa-solid fa-chevron-right fa-xs"></i></a></li>
+                    <li><a href="#" class="footer-link">Kariyer <i class="fa-solid fa-chevron-right fa-xs"></i></a></li>
+                    <li><a href="contact.html" class="footer-link">İletişim <i class="fa-solid fa-chevron-right fa-xs"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h5 class="gold-text mb-4">HİZMETLER</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="services.html" class="footer-link">Risk Haritası <i class="fa-solid fa-chevron-right fa-xs"></i></a></li>
+                    <li><a href="history.html" class="footer-link">Afet Tarihçesi <i class="fa-solid fa-chevron-right fa-xs"></i></a></li>
+                    <li><a href="education.html" class="footer-link">Eğitim Materyalleri <i class="fa-solid fa-chevron-right fa-xs"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h5 class="gold-text mb-4">BÜLTEN ABONELİĞİ</h5>
+                <p class="text-gray small mb-3">Güncel risk raporlarını e-posta ile alın.</p>
+                <form class="input-group">
+                    <input type="email" class="form-control bg-dark text-white border-secondary" placeholder="E-posta adresiniz">
+                    <button class="btn btn-gold" type="button">Kayıt Ol</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="border-top border-secondary mt-5 pt-4 text-center">
+            <p class="text-gray small mb-0">&copy; 2026 Aktan Grup | Tüm Hakları Saklıdır.</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
